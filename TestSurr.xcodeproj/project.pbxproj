@@ -15,6 +15,10 @@
 		222FE06C2587E7950004DB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222FE06A2587E7950004DB7D /* LaunchScreen.storyboard */; };
 		222FE0772587E7950004DB7D /* TestSurrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FE0762587E7950004DB7D /* TestSurrTests.swift */; };
 		222FE0822587E7950004DB7D /* TestSurrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FE0812587E7950004DB7D /* TestSurrUITests.swift */; };
+		222FE0A12588178E0004DB7D /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222FE0A02588178E0004DB7D /* Venue.swift */; };
+		22A0CE28258819CF008FED55 /* FetchBusinessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0CE27258819CF008FED55 /* FetchBusinessData.swift */; };
+		22A0CE2D25882CF9008FED55 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0CE2C25882CF8008FED55 /* CustomCell.swift */; };
+		267128E16FFE5C60D4D99E8C /* libPods-TestSurr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BA7A0D851FC76AD7360956 /* libPods-TestSurr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20BA7A0D851FC76AD7360956 /* libPods-TestSurr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSurr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222FE05C2587E78F0004DB7D /* TestSurr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSurr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222FE05F2587E78F0004DB7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222FE0612587E78F0004DB7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		222FE07D2587E7950004DB7D /* TestSurrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSurrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222FE0812587E7950004DB7D /* TestSurrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSurrUITests.swift; sourceTree = "<group>"; };
 		222FE0832587E7950004DB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222FE0A02588178E0004DB7D /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		22A0CE27258819CF008FED55 /* FetchBusinessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchBusinessData.swift; sourceTree = "<group>"; };
+		22A0CE2C25882CF8008FED55 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		A92B6DDE55EF82C55070A470 /* Pods-TestSurr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSurr.debug.xcconfig"; path = "Target Support Files/Pods-TestSurr/Pods-TestSurr.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFA2B6230F3302BF43ECE92 /* Pods-TestSurr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSurr.release.xcconfig"; path = "Target Support Files/Pods-TestSurr/Pods-TestSurr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267128E16FFE5C60D4D99E8C /* libPods-TestSurr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,8 @@
 				222FE0752587E7950004DB7D /* TestSurrTests */,
 				222FE0802587E7950004DB7D /* TestSurrUITests */,
 				222FE05D2587E78F0004DB7D /* Products */,
+				8D3C5968E7726E053A5678ED /* Pods */,
+				CFD16D62972279E99EDBFED1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +119,9 @@
 				222FE0682587E7950004DB7D /* Assets.xcassets */,
 				222FE06A2587E7950004DB7D /* LaunchScreen.storyboard */,
 				222FE06D2587E7950004DB7D /* Info.plist */,
+				222FE0A02588178E0004DB7D /* Venue.swift */,
+				22A0CE27258819CF008FED55 /* FetchBusinessData.swift */,
+				22A0CE2C25882CF8008FED55 /* CustomCell.swift */,
 			);
 			path = TestSurr;
 			sourceTree = "<group>";
@@ -128,6 +144,23 @@
 			path = TestSurrUITests;
 			sourceTree = "<group>";
 		};
+		8D3C5968E7726E053A5678ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A92B6DDE55EF82C55070A470 /* Pods-TestSurr.debug.xcconfig */,
+				DDFA2B6230F3302BF43ECE92 /* Pods-TestSurr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFD16D62972279E99EDBFED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20BA7A0D851FC76AD7360956 /* libPods-TestSurr.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 222FE0862587E7950004DB7D /* Build configuration list for PBXNativeTarget "TestSurr" */;
 			buildPhases = (
+				0D4AE14FFF5C37506E43D652 /* [CP] Check Pods Manifest.lock */,
 				222FE0582587E78F0004DB7D /* Sources */,
 				222FE0592587E78F0004DB7D /* Frameworks */,
 				222FE05A2587E78F0004DB7D /* Resources */,
@@ -253,13 +287,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D4AE14FFF5C37506E43D652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSurr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		222FE0582587E78F0004DB7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				222FE0642587E78F0004DB7D /* ViewController.swift in Sources */,
+				222FE0A12588178E0004DB7D /* Venue.swift in Sources */,
+				22A0CE28258819CF008FED55 /* FetchBusinessData.swift in Sources */,
 				222FE0602587E78F0004DB7D /* AppDelegate.swift in Sources */,
+				22A0CE2D25882CF9008FED55 /* CustomCell.swift in Sources */,
 				222FE0622587E78F0004DB7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +495,12 @@
 		};
 		222FE0872587E7950004DB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92B6DDE55EF82C55070A470 /* Pods-TestSurr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZDF6FGCZA;
 				INFOPLIST_FILE = TestSurr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +515,12 @@
 		};
 		222FE0882587E7950004DB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFA2B6230F3302BF43ECE92 /* Pods-TestSurr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZDF6FGCZA;
 				INFOPLIST_FILE = TestSurr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
